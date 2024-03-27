@@ -1,0 +1,18 @@
+Response,Model,Posterior Probability,Cummulative Probability,model_name
+Growth,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope),0.501,0.501,fixed_nage_nloc_nclone
+Growth,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.127,0.629,fixed_nage_nloc_allbiol
+Growth,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope) + Location,0.119,0.748,fixed_full_nclone
+Growth,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.098,0.846,fixed_nage_nloc_nsclone
+Growth,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.029,0.875,fixed_nage_allbiol
+Chlorophyll,(1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.144,0.144,fixed_nage_nloc_nseither
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.140,0.284,fixed_nage_nloc_nsclone
+Chlorophyll,(1 | Ramet) + Site + (1 | Rope),0.102,0.386,fixed_nage_nloc_nclone_nssub
+Chlorophyll,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope),0.098,0.484,fixed_nage_nloc_nclone
+Chlorophyll,(1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.091,0.575,fixed_nage_nloc_nssub
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.083,0.659,fixed_nage_nloc_allbiol
+Chlorophyll,Site + (1 | Rope),0.059,0.718,fixed_nage_nloc_nbiol
+Chlorophyll,(1 | Genet) + Site + (1 | Rope),0.050,0.768,fixed_nage_nloc_nsub_nsclone
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.026,0.794,fixed_full_nsclone
+Chlorophyll,(1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.025,0.819,fixed_full_nseither
+Chlorophyll,(1 | Genet:Site) + (1 | Genet) + Site + (1 | Rope),0.024,0.843,fixed_nage_nloc_nsub
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.018,0.862,fixed_nage_allbiol

@@ -1,0 +1,38 @@
+{
+    "initial_working_directory": "~",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "TabSet2",
+            "TabSet1",
+            "Console"
+        ],
+        "tabSet1": [
+            "Environment",
+            "Files",
+            "Plots",
+            "Help",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Viewer",
+            "Presentations",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "History",
+            "Packages"
+        ],
+        "hiddenTabSet": [
+            "Connections"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": false,
+        "additional_source_columns": 0
+    },
+    "posix_terminal_shell": "bash",
+    "insert_native_pipe_operator": true,
+    "editor_theme": "Twilight",
+    "save_workspace": "never",
+    "load_workspace": false
+}

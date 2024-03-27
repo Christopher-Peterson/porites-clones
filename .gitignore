@@ -1,0 +1,15 @@
+.ignore_tacc.sh
+*.Rproj
+.Rhistory
+*.rds
+.cmdstan_tmp
+old_r
+out/*.rds
+out/*/*.rds
+out/*/*/*.rds
+figures/sensitivity/*_*
+figures/bivariate*/*_*.png
+figures/variance_components/*png
+response_to_amnat_reviews.rmd
+*.html
+.Rproj.user

@@ -1,0 +1,179 @@
+model_name,posterior_prob,y,run_weight,formula
+fixed_nage_nloc_nseither,0.14428329206234428,chlor,0.14428329206234428,(1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nsclone,0.1398750899930237,chlor,0.284158382055368,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nclone_nssub,0.10213515946435776,chlor,0.3862935415197257,(1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nclone,0.0980684444229311,chlor,0.48436198594265684,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nssub,0.090957232718714,chlor,0.5753192186613708,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_allbiol,0.08342560562880004,chlor,0.6587448242901709,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nbiol,0.05888679790693811,chlor,0.717631622197109,trans_site + (1 | rope)
+fixed_nage_nloc_nsub_nsclone,0.0502376296439795,chlor,0.7678692518410885,(1 | clone) + trans_site + (1 | rope)
+fixed_full_nsclone,0.02617794707894475,chlor,0.7940471989200333,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nseither,0.0248043398523447,chlor,0.8188515387723779,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_nage_nloc_nsub,0.02449200345211747,chlor,0.8433435422244954,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope)
+fixed_nage_allbiol,0.01823973311899968,chlor,0.8615832753434951,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nssub,0.01752970786987777,chlor,0.8791129832133728,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nclone_nssub,0.01739602269050424,chlor,0.896509005903877,(1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nclone,0.0169966750002664,chlor,0.9135056809041435,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nbiol,0.01041925356670744,chlor,0.9239249344708509,trans_site + (1 | rope) + loc
+fixed_full_nsub_nsclone,0.00956180812327821,chlor,0.9334867425941291,(1 | clone) + trans_site + (1 | rope) + loc
+fixed_nint_nseither,0.00759378952015659,chlor,0.9410805321142858,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nsclone,0.00665417551377597,chlor,0.9477347076280617,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nclone_nssub,0.00589962590289462,chlor,0.9536343335309563,(1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nclone,0.00556696775985873,chlor,0.959201301290815,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nssub,0.00473219612988156,chlor,0.9639334974206967,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_full_nsub,0.00466420088758977,chlor,0.9685976983082863,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + loc
+fixed_nloc_allbiol,0.00456386028240709,chlor,0.9731615585906935,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nbiol,0.0028499909599815,chlor,0.9760115495506749,trans_site + (1 | rope) + age
+fixed_nint_nsub_nsclone,0.00220416374050665,chlor,0.9782157132911816,(1 | clone) + trans_site + (1 | rope) + age
+null_nage_nloc_nsclone,0.00164183276496107,chlor,0.9798575460561427,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+null_nage_nloc_nclone,0.00139733394806428,chlor,0.981254880004207,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope)
+null_nage_nloc_allbiol,0.00136324613669948,chlor,0.9826181261409065,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+fixed_nloc_nseither,0.00131102214297263,chlor,0.9839291482838791,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nloc_nsclone,0.00126073794889317,chlor,0.9851898862327723,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+null_nage_nloc_nseither,0.00125255580822696,chlor,0.9864424420409992,(1 | clone) + (1 | subclone) + (1 | rope)
+null_nage_nloc_nssub,0.00117973919062033,chlor,0.9876221812316196,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+null_nage_nloc_nclone_nssub,0.00115080428437918,chlor,0.9887729855159987,(1 | subclone) + (1 | rope)
+fixed_nloc_nclone_nssub,0.00103627609065268,chlor,0.9898092616066514,(1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nint_nsub,0.00103168135503236,chlor,0.9908409429616838,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age
+fixed_nloc_nclone,9.825073686153835e-4,chlor,0.9918234503302992,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nloc_nssub,8.597206932268242e-4,chlor,0.992683171023526,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nint_allbiol,8.189065398708547e-4,chlor,0.9935020775633968,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nloc_nbiol,5.088661630849193e-4,chlor,0.9940109437264818,trans_site + (1 | rope) + age + loc
+null_nage_allbiol,4.7396858137425826e-4,chlor,0.994484912307856,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nage_nsclone,4.52793722341044e-4,chlor,0.994937706030197,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nage_nclone,4.37922861832545e-4,chlor,0.9953756288920296,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + loc
+fixed_nloc_nsub_nsclone,4.134419582735753e-4,chlor,0.9957890708503032,(1 | clone) + trans_site + (1 | rope) + age + loc
+null_nage_nssub,3.6380071899317897e-4,chlor,0.9961528715692963,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nage_nloc_nsub_nsclone,3.53320501385991e-4,chlor,0.9965061920706824,(1 | clone) + (1 | rope)
+null_nage_nseither,3.1980772941430985e-4,chlor,0.9968259998000967,(1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nage_nclone_nssub,3.0734437680230776e-4,chlor,0.9971333441768989,(1 | subclone) + (1 | rope) + loc
+null_nage_nloc_nsub,2.8340359064383646e-4,chlor,0.9974167477675429,(1 | clone:trans_site) + (1 | clone) + (1 | rope)
+null_nage_nbiol,2.397831026195087e-4,chlor,0.9976565308701623,(1 | rope) + loc
+fixed_nage_nseither,2.1671839851769835e-4,chlor,0.99787324926868,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nage_nsclone,2.1240649379941217e-4,chlor,0.9980856557624794,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nloc_nsub,2.0642872706448437e-4,chlor,0.9982920844895439,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age + loc
+fixed_nage_nclone_nssub,1.7387819331417988e-4,chlor,0.998465962682858,(1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nage_nclone,1.7213063985989485e-4,chlor,0.998638093322718,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_full_allbiol,1.5239268690660516e-4,chlor,0.9987904860096246,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nage_nssub,1.469103189556641e-4,chlor,0.9989373963285803,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nage_nsub_nsclone,1.0265769696153492e-4,chlor,0.9990400540255417,(1 | clone) + (1 | rope) + loc
+null_nage_nsub,1.0104159748056333e-4,chlor,0.9991410956230223,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + loc
+fixed_nage_nbiol,9.332166086093212e-5,chlor,0.9992344172838833,trans_site + (1 | rope) + age + loc + age:loc
+null_nloc_nclone,7.971485140802521e-5,chlor,0.9993141321352913,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age
+fixed_nage_nsub_nsclone,7.053822093784263e-5,chlor,0.9993846703562291,(1 | clone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nloc_nsclone,6.909308120145199e-5,chlor,0.9994537634374306,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nloc_allbiol,6.684845022611127e-5,chlor,0.9995206118876567,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nloc_nclone_nssub,6.653809205421482e-5,chlor,0.9995871499797109,(1 | subclone) + (1 | rope) + age
+null_nloc_nseither,6.587786457347089e-5,chlor,0.9996530278442844,(1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nloc_nssub,5.929932700595688e-5,chlor,0.9997123271712903,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nloc_nbiol,3.851255440599345e-5,chlor,0.9997508397256963,(1 | rope) + age
+fixed_nage_nsub,3.743567717147213e-5,chlor,0.9997882754028679,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nint_nclone,2.4920098082537953e-5,chlor,0.9998131955009504,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age + loc
+null_nint_allbiol,2.3257095088960737e-5,chlor,0.9998364525960394,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nint_nsclone,2.2768422244057e-5,chlor,0.9998592210182834,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nint_nssub,1.8975982626374332e-5,chlor,0.9998781970009097,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nint_nclone_nssub,1.7202585029357036e-5,chlor,0.9998953995859391,(1 | subclone) + (1 | rope) + age + loc
+null_nint_nseither,1.6775428094754993e-5,chlor,0.9999121750140338,(1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nloc_nsub_nsclone,1.544012120646669e-5,chlor,0.9999276151352403,(1 | clone) + (1 | rope) + age
+null_nloc_nsub,1.2552883596835937e-5,chlor,0.9999401680188371,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age
+null_nint_nbiol,1.1693883635456387e-5,chlor,0.9999518619024726,(1 | rope) + age + loc
+null_full_nclone,6.5900935881459995e-6,chlor,0.9999584519960608,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_nsclone,6.115119745685739e-6,chlor,0.9999645671158065,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_allbiol,5.750622952125761e-6,chlor,0.9999703177387586,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_nseither,5.028500469092255e-6,chlor,0.9999753462392277,(1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_nssub,4.886231168035547e-6,chlor,0.9999802324703957,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_nclone_nssub,4.616894421860017e-6,chlor,0.9999848493648176,(1 | subclone) + (1 | rope) + age + loc + age:loc
+null_nint_nsub_nsclone,4.479950836809311e-6,chlor,0.9999893293156543,(1 | clone) + (1 | rope) + age + loc
+null_nint_nsub,4.300520037562965e-6,chlor,0.999993629835692,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age + loc
+null_full_nbiol,3.544953471006321e-6,chlor,0.999997174789163,(1 | rope) + age + loc + age:loc
+null_full_nsub_nsclone,1.4369499527687386e-6,chlor,0.9999986117391158,(1 | clone) + (1 | rope) + age + loc + age:loc
+null_full_nsub,1.3882608718424896e-6,chlor,0.9999999999999876,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age + loc + age:loc
+fixed_nage_nloc_nclone,0.501205845484223,growth,0.501205845484223,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_allbiol,0.12742221142486584,growth,0.6286280569090889,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_full_nclone,0.119246945743236,growth,0.7478750026523249,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_nage_nloc_nsclone,0.0977070048514146,growth,0.8455820075037395,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_allbiol,0.02911396086069986,growth,0.8746959683644393,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_nint_nclone,0.0232971622792338,growth,0.897993130643673,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_full_nsclone,0.0209356188760105,growth,0.9189287495196836,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_nage_nloc_nclone_nssub,0.01531062893174572,growth,0.9342393784514293,(1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nssub,0.01267581463830002,growth,0.9469151930897293,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nage_nloc_nbiol,0.01055226743447721,growth,0.9574674605242065,trans_site + (1 | rope)
+fixed_nage_nloc_nseither,0.00658357788000188,growth,0.9640510384042084,(1 | clone) + (1 | subclone) + trans_site + (1 | rope)
+fixed_nloc_allbiol,0.00574255607495956,growth,0.969793594479168,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_nloc_nclone,0.00511852116077856,growth,0.9749121156399465,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nint_nsclone,0.00466201485940484,growth,0.9795741304993514,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_full_nclone_nssub,0.00305238337678458,growth,0.982626513876136,(1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nssub,0.00271811215309419,growth,0.9853446260292301,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_full_nbiol,0.00219944402859934,growth,0.9875440700578295,trans_site + (1 | rope) + loc
+fixed_nint_allbiol,0.00141998768640425,growth,0.9889640577442337,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_full_nseither,0.0013395839162506,growth,0.9903036416604843,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + loc
+fixed_nage_nclone,0.00120753544835019,growth,0.9915111771088345,(1 | subclone:trans_site) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nloc_nsclone,0.00113411411388316,growth,0.9926452912227177,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+null_nage_nloc_nclone,0.00107666995259749,growth,0.9937219611753152,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope)
+fixed_nage_nloc_nsub,9.012272517227138e-4,growth,0.9946231884270379,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope)
+fixed_nint_nclone_nssub,7.453974752693181e-4,growth,0.9953685859023071,(1 | subclone) + trans_site + (1 | rope) + age
+fixed_nint_nssub,5.773957898673257e-4,growth,0.9959459816921745,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+null_nage_nloc_allbiol,5.660332961931123e-4,growth,0.9965120149883676,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+fixed_nage_nloc_nsub_nsclone,5.577428930691907e-4,growth,0.9970697578814368,(1 | clone) + trans_site + (1 | rope)
+fixed_nint_nbiol,4.0009962425375216e-4,growth,0.9974698575056906,trans_site + (1 | rope) + age
+fixed_nint_nseither,3.011827346341188e-4,growth,0.9977710402403247,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age
+fixed_full_allbiol,2.7822023358731337e-4,growth,0.998049260473912,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nage_nloc_nsclone,2.2993097349523187e-4,growth,0.9982791914474073,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+fixed_nage_nsclone,2.095475123255285e-4,growth,0.9984887389597328,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_full_nsub,2.0459205102187913e-4,growth,0.9986933310107546,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + loc
+null_nage_nclone,1.920100860815016e-4,growth,0.9988853410968361,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + loc
+fixed_nloc_nclone_nssub,1.5556001909098526e-4,growth,0.9990409011159271,(1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_nloc_nssub,1.2156601671726648e-4,growth,0.9991624671326444,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+fixed_full_nsub_nsclone,1.1737527702534709e-4,growth,0.9992798424096697,(1 | clone) + trans_site + (1 | rope) + loc
+null_nage_allbiol,9.361462832323684e-5,growth,0.999373457037993,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+fixed_nloc_nbiol,8.694106089694185e-5,growth,0.99946039809889,trans_site + (1 | rope) + age + loc
+fixed_nloc_nseither,6.459405284266348e-5,growth,0.9995249921517326,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc
+null_nloc_nclone,5.8962852996516535e-5,growth,0.9995839550047291,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age
+null_nage_nloc_nssub,5.264289791433765e-5,growth,0.9996365979026435,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope)
+null_nage_nloc_nclone_nssub,3.818801158753552e-5,growth,0.999674785914231,(1 | subclone) + (1 | rope)
+null_nage_nsclone,3.7917804055207353e-05,growth,0.9997127037182862,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+fixed_nint_nsub,3.463836812518856e-5,growth,0.9997473420864114,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age
+fixed_nage_nclone_nssub,3.290227123887301e-5,growth,0.9997802443576502,(1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+fixed_nage_nssub,2.7133346023569724e-5,growth,0.9998073777036738,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nloc_allbiol,2.7009152196951766e-5,growth,0.9998343868558708,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+fixed_nint_nsub_nsclone,2.1604449382365906e-05,growth,0.9998559913052532,(1 | clone) + trans_site + (1 | rope) + age
+fixed_nage_nbiol,1.6787983101114856e-5,growth,0.9998727792883543,trans_site + (1 | rope) + age + loc + age:loc
+null_nage_nloc_nseither,1.6781287278789032e-5,growth,0.999889560575633,(1 | clone) + (1 | subclone) + (1 | rope)
+fixed_nage_nseither,1.3620083626557644e-5,growth,0.9999031806592596,(1 | clone) + (1 | subclone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nage_nbiol,1.112389139230924e-5,growth,0.9999143045506519,(1 | rope) + loc
+null_nloc_nsclone,1.0777051673982417e-5,growth,0.9999250816023258,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nage_nssub,9.888139214669133e-6,growth,0.9999349697415406,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nint_nclone,9.216160348487e-6,growth,0.999944185901889,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age + loc
+fixed_nloc_nsub,7.813301668292524e-6,growth,0.9999519992035574,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age + loc
+null_nage_nloc_nsub,7.4507539783462124e-06,growth,0.9999594499575357,(1 | clone:trans_site) + (1 | clone) + (1 | rope)
+null_nint_allbiol,6.1518058193181135e-6,growth,0.999965601763355,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nage_nclone_nssub,5.574280710899676e-6,growth,0.9999711760440659,(1 | subclone) + (1 | rope) + loc
+fixed_nloc_nsub_nsclone,4.617546638302896e-6,growth,0.9999757935907042,(1 | clone) + trans_site + (1 | rope) + age + loc
+null_nloc_nbiol,2.71998595946456e-6,growth,0.9999785135766637,(1 | rope) + age
+null_nage_nseither,2.623195986084088e-6,growth,0.9999811367726498,(1 | clone) + (1 | subclone) + (1 | rope) + loc
+null_nloc_nssub,2.483126315689881e-6,growth,0.9999836198989654,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nage_nloc_nsub_nsclone,2.417836726096249e-6,growth,0.9999860377356915,(1 | clone) + (1 | rope)
+null_full_nclone,1.9908653094757595e-6,growth,0.999988028601001,(1 | subclone:trans_site) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_nint_nsclone,1.8968398582866865e-6,growth,0.9999899254408593,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nloc_nclone_nssub,1.7722732778659556e-6,growth,0.9999916977141372,(1 | subclone) + (1 | rope) + age
+fixed_nage_nsub,1.5865604213531675e-6,growth,0.9999932842745586,(1 | clone:trans_site) + (1 | clone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nage_nsub,1.2876091531614282e-6,growth,0.9999945718837117,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + loc
+null_full_allbiol,9.717331519771427e-7,growth,0.9999955436168637,(1 | subclone:trans_site) + (1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+fixed_nage_nsub_nsclone,8.965035320661644e-7,growth,0.9999964401203957,(1 | clone) + trans_site + (1 | rope) + age + loc + age:loc
+null_nloc_nseither,7.8928396122662e-7,growth,0.999997229404357,(1 | clone) + (1 | subclone) + (1 | rope) + age
+null_nint_nssub,4.537872053893153e-7,growth,0.9999976831915623,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nint_nbiol,4.345715882208567e-7,growth,0.9999981177631506,(1 | rope) + age + loc
+null_nage_nsub_nsclone,3.880026747669979e-7,growth,0.9999985057658254,(1 | clone) + (1 | rope) + loc
+null_full_nsclone,3.7056410557827545e-7,growth,0.9999988763299309,(1 | subclone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_nloc_nsub,2.9453923432919736e-7,growth,0.9999991708691652,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age
+null_nint_nclone_nssub,2.711931638254813e-7,growth,0.999999442062329,(1 | subclone) + (1 | rope) + age + loc
+null_nint_nseither,1.2392121053763453e-7,growth,0.9999995659835396,(1 | clone) + (1 | subclone) + (1 | rope) + age + loc
+null_nloc_nsub_nsclone,9.848782055246625e-8,growth,0.9999996644713601,(1 | clone) + (1 | rope) + age
+null_full_nssub,8.908386570547273e-8,growth,0.9999997535552259,(1 | clone:trans_site) + (1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_full_nbiol,8.216212315337744e-8,growth,0.9999998357173491,(1 | rope) + age + loc + age:loc
+null_full_nclone_nssub,5.733966405703637e-8,growth,0.9999998930570131,(1 | subclone) + (1 | rope) + age + loc + age:loc
+null_nint_nsub,5.324220611756432e-8,growth,0.9999999462992192,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age + loc
+null_full_nseither,2.5425190746076962e-8,growth,0.9999999717244099,(1 | clone) + (1 | subclone) + (1 | rope) + age + loc + age:loc
+null_nint_nsub_nsclone,1.552826072396856e-8,growth,0.9999999872526707,(1 | clone) + (1 | rope) + age + loc
+null_full_nsub,9.921416018019637e-9,growth,0.9999999971740867,(1 | clone:trans_site) + (1 | clone) + (1 | rope) + age + loc + age:loc
+null_full_nsub_nsclone,2.8259193583610253e-9,growth,1.000000000000006,(1 | clone) + (1 | rope) + age + loc + age:loc

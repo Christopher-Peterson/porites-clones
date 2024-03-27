@@ -1,0 +1,18 @@
+Response,Model,Posterior Probability,Cummulative Probability
+Growth,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope),0.501,0.501
+Growth,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.127,0.629
+Growth,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope) + Location,0.119,0.748
+Growth,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.098,0.846
+Growth,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.029,0.875
+Chlorophyll,(1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.144,0.144
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.140,0.284
+Chlorophyll,(1 | Ramet) + Site + (1 | Rope),0.102,0.386
+Chlorophyll,(1 | Ramet:Site) + (1 | Ramet) + Site + (1 | Rope),0.098,0.484
+Chlorophyll,(1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.091,0.575
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope),0.083,0.659
+Chlorophyll,Site + (1 | Rope),0.059,0.718
+Chlorophyll,(1 | Genet) + Site + (1 | Rope),0.050,0.768
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.026,0.794
+Chlorophyll,(1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.025,0.819
+Chlorophyll,(1 | Genet:Site) + (1 | Genet) + Site + (1 | Rope),0.024,0.843
+Chlorophyll,(1 | Ramet:Site) + (1 | Genet:Site) + (1 | Genet) + (1 | Ramet) + Site + (1 | Rope) + Location,0.018,0.862
