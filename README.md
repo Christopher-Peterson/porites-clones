@@ -1,7 +1,7 @@
 
 # Bayesian Mixed Model analysis for “The role of intra-clonal variation in facilitating adaptation in a predominately asexual coral population”
 
-These scripts were designed for use on the Lonestar 6 at the TExas
+These scripts were designed for use on the Lonestar 6 at the Texas
 Advanced Computing Center (TACC); they should work on other HPC systems
 with some minor adjustments.
 
